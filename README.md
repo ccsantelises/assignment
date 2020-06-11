@@ -1,5 +1,6 @@
-echo "Project title: The Guessing Game" >> README.md
-	echo "\nThe date and time at which make was run:" >> README.md
-	date >> README.md
-	echo "\nThe number of lines of code contained in guessinggame.sh:" >> README.md
-	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
+##
+Project title: The Guessing Game
+\nThe date and time at which make was run:
+Thu Jun 11 11:55:39 EDT 2020
+\nThe number of lines of code contained in guessinggame.sh:
+31
