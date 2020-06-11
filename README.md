@@ -1,6 +1,5 @@
-Peer-graded Assignment: Bash, Make, Git, and GitHub
-Date and time at which make was run.
-Wed Jun 10 22:20:01 EDT 2020
-
-Number of lines of code conatained in guessinggame.sh
-wc -l ./guessinggame.sh
+echo "Project title: The Guessing Game" >> README.md
+	echo "\nThe date and time at which make was run:" >> README.md
+	date >> README.md
+	echo "\nThe number of lines of code contained in guessinggame.sh:" >> README.md
+	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
